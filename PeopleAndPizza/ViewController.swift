@@ -20,6 +20,25 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
 }
+
+class Tiger {
+    
+    var name : String
+    var isHungry : Bool
+    
+    init(name: String){
+        self.name = name
+        isHungry = true
+    }
+    
+    func eat() {
+        isHungry = false
+    }
+    
+}
+
+
+
 

@@ -12,6 +12,9 @@
 		5B077DDF1D9C519B003DCE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DDD1D9C519B003DCE37 /* Main.storyboard */; };
 		5B077DE11D9C519B003DCE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DE01D9C519B003DCE37 /* Assets.xcassets */; };
 		5B077DE41D9C519B003DCE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DE21D9C519B003DCE37 /* LaunchScreen.storyboard */; };
+		BB26165F1D9C591A002DD0B8 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB26165E1D9C591A002DD0B8 /* Coordinate.swift */; };
+		BB2616611D9C5B93002DD0B8 /* PizzaDeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2616601D9C5B93002DD0B8 /* PizzaDeliveryService.swift */; };
+		BB2616631D9C5D48002DD0B8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2616621D9C5D48002DD0B8 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5B077DE01D9C519B003DCE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B077DE31D9C519B003DCE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B077DE51D9C519B003DCE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB26165E1D9C591A002DD0B8 /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		BB2616601D9C5B93002DD0B8 /* PizzaDeliveryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryService.swift; sourceTree = "<group>"; };
+		BB2616621D9C5D48002DD0B8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 			children = (
 				5B077DD91D9C519B003DCE37 /* AppDelegate.swift */,
 				5B077DDB1D9C519B003DCE37 /* ViewController.swift */,
+				BB2616621D9C5D48002DD0B8 /* Person.swift */,
+				BB26165E1D9C591A002DD0B8 /* Coordinate.swift */,
+				BB2616601D9C5B93002DD0B8 /* PizzaDeliveryService.swift */,
 				5B077DDD1D9C519B003DCE37 /* Main.storyboard */,
 				5B077DE01D9C519B003DCE37 /* Assets.xcassets */,
 				5B077DE21D9C519B003DCE37 /* LaunchScreen.storyboard */,
@@ -145,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2616631D9C5D48002DD0B8 /* Person.swift in Sources */,
+				BB2616611D9C5B93002DD0B8 /* PizzaDeliveryService.swift in Sources */,
 				5B077DDC1D9C519B003DCE37 /* ViewController.swift in Sources */,
 				5B077DDA1D9C519B003DCE37 /* AppDelegate.swift in Sources */,
+				BB26165F1D9C591A002DD0B8 /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
